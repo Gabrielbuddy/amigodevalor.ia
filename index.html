@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amigo SpaceIA de Valor</title>
+  <meta name="description" content="Amigo SpaceIA de Valor — união entre mediação humana, gestão estratégica e tecnologia inteligente. Do diálogo à automação, gerando valor real." />
+  <meta name="theme-color" content="#0b0b0b" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#ffffff;--fg:#0a0a0a;--muted:#606060;--line:#e5e5e5;--radius:18px;--shadow:0 14px 34px rgba(0,0,0,.08);
+      --brand1:#111;--brand2:#c7a455;--brand3:#2563eb;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--fg);line-height:1.6}
+    img{max-width:100%;display:block;border-radius:12px}
+    a{text-decoration:none;color:inherit}
+    header{position:sticky;top:0;background:rgba(255,255,255,.8);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:100}
+    .wrap{width:min(1100px,94vw);margin-inline:auto}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{font-weight:800;font-family:"Playfair Display",serif}
+    .menu{display:flex;gap:20px;align-items:center}
+    .btn{padding:10px 16px;border-radius:999px;font-weight:600;border:1px solid var(--fg)}
+    .btn.primary{background:#000;color:#fff;border-color:#000}
+
+    .hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px;padding:60px 0}
+    .hero-text h1{font-family:"Playfair Display",serif;font-size:clamp(2.2rem,5vw,3.2rem);line-height:1.1;margin-bottom:1rem}
+    .hero-text p{font-size:1.1rem;color:#333;margin-bottom:1.5rem}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+
+    .hero-imgs{display:grid;grid-template-rows:1fr auto;gap:16px}
+    .hero-top{display:flex;gap:16px;align-items:center;justify-content:center}
+    .hero-top img{width:48%;border-radius:20px;box-shadow:var(--shadow)}
+    .hero-bottom img{width:140px;margin:auto;display:block}
+
+    .section{padding:50px 0;border-top:1px solid var(--line)}
+    h2{font-family:"Playfair Display",serif;font-size:clamp(1.6rem,3vw,2.2rem);margin-bottom:20px}
+
+    .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{background:#fafafa;border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+    .card h3{font-family:"Playfair Display",serif;margin:10px 0 6px}
+    .card img{margin-top:12px;border-radius:var(--radius)}
+
+    footer{background:#0b0b0b;color:#fff;text-align:center;padding:40px 0;margin-top:40px}
+
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .pillars{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="brand">Amigo SpaceIA de Valor</div>
+    <nav class="menu">
+      <a href="#pilares">Pilares</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato" class="btn primary">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Humanidade, estratégia e inteligência em movimento.</h1>
+      <p>Integramos o olhar humano da mediação, a visão de valor na gestão e a potência da inteligência artificial — formando um ecossistema completo de transformação.</p>
+      <div class="cta">
+        <a href="#contato" class="btn primary">Agendar conversa</a>
+        <a href="#pilares" class="btn">Saiba mais</a>
+      </div>
+    </div>
+    <div class="hero-imgs">
+      <div class="hero-top">
+        <img src="josegabriel.jpeg" alt="Zé Gabriel Quintana" />
+        <img src="marcio.png" alt="Márcio - CriaValor" />
+      </div>
+      <div class="hero-bottom">
+        <img src="Space.png" alt="Logo Space IA" />
+      </div>
+    </div>
+  </section>
+
+  <section id="pilares" class="section">
+    <h2>Pilares que se completam</h2>
+    <div class="pillars">
+      <div class="card">
+        <h3>Mediação Sistêmica</h3>
+        <p>Conduzida por Zé Gabriel Quintana, com foco em escuta ativa, reconciliação e clareza nas relações humanas e profissionais.</p>
+        <img src="josegabriel.jpeg" alt="Zé Gabriel Quintana" />
+      </div>
+      <div class="card">
+        <h3>Consultoria e Gestão</h3>
+        <p>Visão estratégica e experiência em negócios conduzidas por Márcio e equipe CriaValor — planejamento, governança e resultados reais.</p>
+        <img src="marcio.png" alt="Márcio - CriaValor" />
+      </div>
+      <div class="card">
+        <h3>IA e Automação</h3>
+        <p>Implementações inteligentes e integrações conduzidas pela Space IA — tecnologia a serviço do humano e da eficiência.</p>
+        <img src="Space.png" alt="Logo Space IA" />
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="section">
+    <h2>Serviços Integrados</h2>
+    <p>Do diálogo à execução automatizada — oferecemos soluções completas para pessoas, empresas e organizações.</p>
+    <ul>
+      <li>Mediação sistêmica e escuta qualificada</li>
+      <li>Diagnóstico e planejamento estratégico</li>
+      <li>Automação e agentes inteligentes</li>
+    </ul>
+  </section>
+
+  <section id="contato" class="section">
+    <h2>Entre em contato</h2>
+    <p>Agende uma conversa e descubra como podemos transformar sua relação, negócio ou operação.</p>
+    <div class="cta">
+      <a href="https://wa.me/5500000000000" target="_blank" class="btn primary">WhatsApp</a>
+      <a href="mailto:contato@amigospaceia.com.br" class="btn">E-mail</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Amigo SpaceIA de Valor — todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
